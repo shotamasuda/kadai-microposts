@@ -1,0 +1,15 @@
+
+[1mFrom:[0m /home/ec2-user/environment/microposts/app/views/microposts/_microposts.html.erb @ line 16 ActionView::CompiledTemplates#_app_views_microposts__microposts_html_erb___1690532202767038697_70273556033460:
+
+    [1;34m11[0m:         </div>
+    [1;34m12[0m:         <div>
+    [1;34m13[0m:           <% if current_user == micropost.user %>
+    [1;34m14[0m:             <%= link_to "Delete", micropost, method: :delete, data: { confirm: "You sure?" }, class: 'btn btn-danger btn-sm' %>
+    [1;34m15[0m:             <% binding.pry %>
+ => [1;34m16[0m:             <%= render 'favorites/favorite_button', micropost: @micropost %>
+    [1;34m17[0m:           <% end %>
+    [1;34m18[0m:         </div>
+    [1;34m19[0m:       </div>
+    [1;34m20[0m:     </li>
+    [1;34m21[0m:   <% end %>
+
